@@ -1,0 +1,31 @@
+
+<!DOCTYPE>
+<html>
+<head>
+<meta charset="utf-8">
+<title>registr forms</title>
+<style>
+   textarea {
+    width: 200; /* Ширина поля в процентах */
+    height: 25; /* Высота поля в пикселах */
+    resize: none; /* Запрещаем изменять размер */
+   } 
+  </style>
+</head>
+<body bgcolor="#FF9C9C"><b>Регистрация на сайте Кирилла Теплоухова</b>
+
+<form>
+<p><textarea required placeholder="Фамилия" ></textarea></p>
+<p><textarea required placeholder="Имя"  ></textarea></p>
+<p><textarea required placeholder="Отчество"  ></textarea></p>
+<p><textarea required placeholder="Почта"  ></textarea></p>
+<p><textarea required placeholder="Телефон"  ></textarea></p>
+<p>
+<label>Пол:</label>
+<label><input type="radio" name="fk"></input>M</label>
+<label><input type="radio" name="fk"></input>Ж</label>
+</p>
+<label><input type="submit" value="Скинуть"></input></label>
+<form>
+</body> 
+</html>
